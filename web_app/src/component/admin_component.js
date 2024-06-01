@@ -64,7 +64,8 @@ function AdminComponent({account, contractInstance}) {
     return(
         <div style={{paddingTop: "18px", paddingLeft: "5%", paddingRight: "5%" }}>
             <div className='banner-area'style={{marginBottom: 20}} >
-                <h1>WELCOME TO COLLEGE PRESIDENT ELECTION</h1>
+                <h1>NSUT Final Year Project - BLOCKCHAIN BASED DE-CENTRALISED VOTING SYSTEM</h1>
+                <h2>Admin Panel</h2>
             </div>
             <div >
                 <div style={{float:"left", marginRight: 100}}>
@@ -122,7 +123,7 @@ function AdminComponent({account, contractInstance}) {
                             <TextField id="outlined-basic" label={winnerAddress} variant="outlined" disabled style={{width: '100%'}}/>
                         </CardContent>
                         <CardActions>
-                            <Button variant="contained" onClick={get_Winner}>Get Wineer</Button>
+                            <Button variant="contained" onClick={get_Winner}>Get Winner</Button>
                         </CardActions>
                     </Card>
                 </div>

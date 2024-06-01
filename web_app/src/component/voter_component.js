@@ -33,7 +33,7 @@ function VoterComponent({account, contractInstance}) {
   return (
     <div style={{paddingTop: "18px", paddingLeft: "5%",paddingRight: "5%" }}>
         <div className='banner-area'style={{marginBottom: 20}} >
-          <h1>WELCOME TO PRESIDENT ELECTION</h1>
+          <h1>WELCOME TO ELECTION 2024</h1>
         </div>
         <div>
           {
